@@ -1,3 +1,11 @@
 .hidden {
     display: none;
 }
+
+.quotes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: aliceblue;
+}
