@@ -27,9 +27,10 @@ function paintTodo (newTodoObj) {
     toDoDeleteBtn.innerText = "❌";
     toDoDeleteBtn.addEventListener("click", deleteTodo);
     newTodoSpan.innerText = newTodoObj.text;
+    toDoDeleteBtn.className = "todos-delete";
     newTodoLi.id = newTodoObj.id;
-    newTodoLi.appendChild(newTodoSpan);
     newTodoLi.appendChild(toDoDeleteBtn);
+    newTodoLi.appendChild(newTodoSpan);
     toDoList.appendChild(newTodoLi);
 }
 

@@ -12,17 +12,19 @@
         <input required maxlength="15" type="text" placeholder="What is your name?" />
         <button>Log In</button>
     </form>
-    <h2 id="clock">00:00:00</h2>
-    <h1 id="greeting" class="hidden"></h1>
-    <form id="todo-form">
-        <input required type="text" placeholder="할 일을 입력하고 엔터를 눌러주세요."/>
+    <h2 id="clock" class="font-color">00:00:00</h2>
+    <div class="greeting">
+        <h1 id="greeting" class="hidden font-color"></h1>
+    </div>
+    <form id="todo-form" class="todos-form">
+        <input required type="text" placeholder="할 일을 입력하고 엔터를 눌러주세요." class="todos-input"/>
     </form>
-    <ul id="todo-list" class="todos"></ul>
-    <div id="quote" class="quotes">
+    <ul id="todo-list" class="todos font-color"></ul>
+    <div id="quote" class="quotes font-color">
         <span></span>
         <span></span>
     </div>
-    <div id="weather">
+    <div id="weather" class="weather font-color">
         <span></span>
         <span></span>
     </div>
